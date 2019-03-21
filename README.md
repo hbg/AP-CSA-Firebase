@@ -65,4 +65,4 @@ This is where you'll view all of the data changes triggered by the app (but not 
         myRef.setValue("Mr. Mauro's class is awesome!"); // Now this, right here, is just a fact.
 ```
 
-13. Run your app. A new data entry should have been created in your database (which should be viewable in the Firebase Realtime Database Console) saying "Mr. Mauro's class is awesome!" If not, go back to Step 1. Just kidding. Post a question on this repository, and then I can help you out. Mr. Mauro should be able to help, too, since he's cool 😎 `Right, Mr. Mauro?`.
+14. Run your app. A new data entry should have been created in your database (which should be viewable in the Firebase Realtime Database Console) saying "Mr. Mauro's class is awesome!" If not, go back to Step 1. Just kidding. Post a question on this repository, and then I can help you out. Mr. Mauro should be able to help, too, since he's cool 😎 `Right, Mr. Mauro?`.
