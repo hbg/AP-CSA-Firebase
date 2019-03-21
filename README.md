@@ -17,10 +17,7 @@
 ![Save and Retrieve Data](https://i.ibb.co/2Ymk1cb/image.png)
 3. Now, you should see a button entitled "Connect to Firebase". Click this button and log in to your Google Account (presumably not your school account) after clicking the "Sign In" button located in the top right section of our dialog box. Firebase will ask you to provide them a few permissions. Allow it to access all of these permissions.
 ![Permissions](https://i.ibb.co/fFX2pFQ/image.png)
-4. Now go back to Android Studio and click the blue button labeled "Connect to Firebase." The gradle will now add the settings that will allow you to connect to the database. Once the gradle is done, a message will appear in the bottom right corner of Android Studio saying "Firebase project created."
-
-
-If everything worked, you should see a checkmark as shown below:
+4. Now go back to Android Studio and click the blue button labeled "Connect to Firebase." The gradle will now add the settings that will allow you to connect to the database. Once the gradle is done, a message will appear in the bottom right corner of Android Studio saying "Firebase project created." If everything worked, you should see a checkmark as shown below:<br/>
 ![Check](https://i.ibb.co/wMyCYst/image.png)<br/>
 
 
@@ -39,8 +36,10 @@ This is where you should be: ![Location](https://i.ibb.co/tKnHHSd/image.png)
 ![Realtime DB](https://i.ibb.co/7Yn2RSt/image.png)
 Click "Create Database."
 
-10. **Make sure you select the option "Start in test mode."** The reason for this is that we don't want to have to go through the process of authentication (at least, not yet). If you're tired of this tutorial, just imagine how much worse it would be if we set up an Auth system. Anyways, your settings should appear as follows:
+10. **Make sure you select the option "Start in test mode."** The reason for this is that we don't want to have to go through the process of authentication (at least, not yet). If you're tired of this tutorial, just imagine how much worse it would be if we set up an Auth system. Anyways, your settings should appear as follows:<br/>
 ![Settings](https://i.ibb.co/b1MR0nr/image.png)
+
+
 
 11. If you didn't heed my advice (in bold, by the way), click the "Rules" tab. Your rules should be set to:
 `
