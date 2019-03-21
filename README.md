@@ -59,6 +59,7 @@ This is where you'll view all of the data changes triggered by the app (but not 
 
 12. The database is now fully set up. Now go back to `MainActivity.java` in Android Studio and add the following code:
 ```java
+        // If you're having trouble accessing the classes below, add this import statement: import com.google.firebase.database.*;
         FirebaseDatabase database = FirebaseDatabase.getInstance(); // Database Instance
         DatabaseReference myRef = database.getReference("message"); // A folder named "message." This will be created automatically if it doesn't exist
         myRef.setValue("Mr. Mauro's class is awesome!"); // Now this, right here, is just a fact.
